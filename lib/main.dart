@@ -11,6 +11,8 @@ void main() async{
 
 class MyApp extends StatelessWidget {
   // This widget is the root of your application.
+
+  //Initialize firebase
   final Future<FirebaseApp> _initialize = Firebase.initializeApp();
   @override
   Widget build(BuildContext context) {
